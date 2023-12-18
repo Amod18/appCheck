@@ -32,7 +32,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* .rsc-container {
+    width: 100%;
+    height: calc(100%);
+  } */
+
+  .rsc-content {
+    height: calc(98vh - 120px);
+  }
+
+  /* .rsc-footer{
+      bottom: 0 !important;
+    } */
 }
