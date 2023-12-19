@@ -1,7 +1,9 @@
 import React from "react";
 import Chatbot from "react-simple-chatbot";
 import steps from './data/steps.json';
+import logo from './CMSlogo.png'
 import './App.css'
+
 
 // const theme = {
 //   background: '#C9FF8F',
@@ -29,6 +31,7 @@ export default function Temp() {
       <Chatbot
         steps={steps}
         style={chatbotStyle}
+        botAvatar={logo}
         {...config}
       />
     </div>
