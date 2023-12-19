@@ -46,11 +46,11 @@
   } */
 
   .rsc-content {
-    height: calc(98vh - 120px);
+    height: calc(98vh - 120px) !important;
   }
 
   .fBGGBn {
-    height: calc(98vh - 120px);
+    height: calc(98vh - 120px) !important;
   }
 
   /* .rsc-footer{
