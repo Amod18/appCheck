@@ -14,9 +14,13 @@ import './App.css'
 //   userFontColor: 'black',
 // };
 
+const config = {
+  floating: true,
+};
+
 const chatbotStyle = {
-  width: '100%', // Occupy full width
-  height: '100vh ! important', // Occupy full height of the viewport
+  width: '100%',
+  height: '100vh ! important',
 };
 
 export default function Temp() {
@@ -25,6 +29,7 @@ export default function Temp() {
       <Chatbot
         steps={steps}
         style={chatbotStyle}
+        {...config}
       />
     </div>
   );
